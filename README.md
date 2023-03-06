@@ -1,2 +1,2 @@
-# softwareEngineringLabs
+# softwareEngineeringLabs
 Repo Laboratorium GPL01 
