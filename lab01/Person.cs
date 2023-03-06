@@ -4,7 +4,12 @@ using System.Text;
 
 namespace lab01
 {
-    class Person
+    public class Person
     {
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public DateTime Birthday { get; set; }
+        public Address Address { get; set; }
     }
+
 }

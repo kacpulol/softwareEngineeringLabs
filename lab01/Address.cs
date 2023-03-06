@@ -4,7 +4,10 @@ using System.Text;
 
 namespace lab01
 {
-    class Address
+    public class Address
     {
+        public string Number { get; set; }
+        public string Description { get; set; }
     }
+
 }
