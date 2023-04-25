@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="13.96" multi-file="no" uid="simpb1b0816fd55d41fe8badda672dfeab39">
+  <meta>
+    <name>lab5</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type stereotype="interface" type-id="uml-interface-classifier" type="Interface" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type stereotype="enumeration" type-id="enumeration" type="Enumeration" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="uml-interface-classifier" type="Interface" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="enumeration" type="Enumeration" />
+        <value>9</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>50</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>11</value>
+      </counter>
+      <counter>
+        <item-type type-id="realization" type="Realization" />
+        <value>7</value>
+      </counter>
+      <counter>
+        <item-type type-id="usage" type="Usage" />
+        <value>14</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>5</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>14</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.EnumerationItemField</type>
+        <value>13</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-a8a46021b196468487772c55f524ac0b" name="" task-id-sequence="0">
+    <working-schedule uid="ws-fb167f5a960d4d76a49d2a78e6fc871e" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name>Kacper</first-name>
+        <last-name>Pieniążek</last-name>
+        <role />
+        <e-mail>w64885@student.wsiz.edu.pl</e-mail>
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-744f62710a4a411b882c23a1202e76d0" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-02df55e266d1490791edd17e297405fa" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types>
+        <type id="Class:14b45cc1207b45a89a7ca25e60869f0a" name="ChoosedCurrency" class-ref="14b45cc1207b45a89a7ca25e60869f0a" />
+        <type id="Class:ff9c587d89964219af238fa4d64cd913" name="PaymentMethod" class-ref="ff9c587d89964219af238fa4d64cd913" />
+        <type id="Class:89c802d66e8f42079d7594137d8b4608" name="Payment" class-ref="89c802d66e8f42079d7594137d8b4608" />
+      </types>
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="p389f2751d76247918447a0e998cad546_559528320" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author>Kacper Pieniążek</author>
+        </authors>
+        <description />
+        <creation-date>04/24/2023 13:48:37</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="pe311e5730da0474a9757ec6df47cc6e2_175371306" name="ClassDiagram1" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="0,686" zoom="0.8">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author>Kacper Pieniążek</author>
+          </authors>
+          <description />
+          <creation-date>04/24/2023 13:48:37</creation-date>
+          <change-date>04/25/2023 20:06:14</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="5738b02dc5844fc181b06af570cdf71d" cid="PROP036" type="property" name="shopUuid" owner="dia91ff7e16b1b4bfa8b302c1a02db5ddb1941" creator="" creation-date="04/24/2023 14:03:17" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="ff9c587d89964219af238fa4d64cd913" cid="E003" type="enumeration" name="PaymentMethod" owner="fc53a1f0a9ba4fe48d81c0f6e840b355" creator="" creation-date="04/24/2023 14:04:18" visibility="undefined">
+            <stereotypes>
+              <stereotype name="enumeration" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="ff9c587d89964219af238fa4d64cd913_enumeration_c" type="enumeration" ref="" />
+            </stereotype-instances>
+            <enumeration-items>
+              <enumeration-item id="acfe58a513fa241b48fa5c22894338913927" cid="ENI006" name="Cash" creation-date="04/24/2023 14:06:55" />
+              <enumeration-item id="aada242b7c5174e4bb21f4c8b9246dc3c96" cid="ENI007" name="PayPal" creation-date="04/24/2023 14:06:56" />
+              <enumeration-item id="a08e914240043453781b9321af58539de271" cid="ENI008" name="Blik" creation-date="04/24/2023 14:06:56" />
+              <enumeration-item id="a1ea8d1780f9f499fb09525c3f2bf4f16447" cid="ENI009" name="BankTransfer" creation-date="04/24/2023 14:06:56" />
+              <enumeration-item id="a19dcfe3dd3b84ce1b80091a328d462f6592" cid="ENI010" name="CreditCard" creation-date="04/24/2023 14:06:56" />
+              <enumeration-item id="adade482dd4d44084af97363c75b8271c34" cid="ENI012" name="CryptoCurrencies" creation-date="04/25/2023 19:50:22" />
+            </enumeration-items>
+          </item>
+          <item id="2218257b85ec438faf064fcc95e10072" cid="PROP033" type="property" name="adminCountrie" owner="dia91ff7e16b1b4bfa8b302c1a02db5ddb1941" creator="" creation-date="04/24/2023 13:57:19" visibility="private">
+            <structural-feature multiplicity="SupportedCountrie" />
+          </item>
+          <item id="edbd842c945f4f9b918d8580fb106d22" cid="PROP024" type="property" name="balance" owner="9f998a3f74554fef810927742da18cef" creator="" creation-date="04/24/2023 13:58:23" visibility="private">
+            <structural-feature type="uInt" type-id="uInt" />
+          </item>
+          <item id="89c802d66e8f42079d7594137d8b4608" cid="C005" type="class" name="Payment" owner="fc53a1f0a9ba4fe48d81c0f6e840b355" creator="" creation-date="04/24/2023 14:04:25" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="a950e5b44d4fd44ac927080c5a234a344156" cid="PROP045" name="paymentID" creation-date="04/25/2023 20:02:22" property-ref="a523cb388e304581b27731232dd6e8a1" />
+              <attribute id="a3e617776b38d42f78eaf3da27ed525bf475" cid="PROP041" name="method" creation-date="04/25/2023 19:58:53" property-ref="7f1c7c1237c84adead97a7406e9d67dd" />
+              <attribute id="a58404ecf575242de893b65bc88688197797" cid="PROP040" name="currency" creation-date="04/25/2023 19:58:52" property-ref="c59e83e5e0dd4878a2895cef70e4b9d1" />
+              <attribute id="ad8ce413339194fbcb504b300e8d931d0845" cid="PROP042" name="value" creation-date="04/25/2023 19:58:53" property-ref="53328ade70454518a648d2137e16dde6" />
+            </attributes>
+            <operations>
+              <operation id="o5078e464ced4473b8d293b4e7d050295520" cid="OP009" name="getCurrency" creation-date="04/25/2023 20:00:02" type="" type-id="" visibility="public" />
+              <operation id="o791794dc384542c7a4b48dafe80fdf8e821" cid="OP010" name="getMethod" creation-date="04/25/2023 20:00:02" type="" type-id="" visibility="public" />
+              <operation id="o41a35fdac00440cb8d97bf1d731bb170187" cid="OP011" name="getValue" creation-date="04/25/2023 20:00:03" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="869b44809f364cbba7842f9e6dd4d788" cid="ELEM007" type="usage" owner="d0703b0b02e542c3b083ec2b626d533b" creator="" creation-date="04/24/2023 13:53:46" from="c28fe11fe7f54e23842134104537d0b6" to="9f998a3f74554fef810927742da18cef" visibility="package">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="869b44809f364cbba7842f9e6dd4d788_use_c" type="use" ref="" />
+            </stereotype-instances>
+          </item>
+          <item id="157216f018b24bdd8350b58d3e8ccb98" cid="PROP046" type="property" name="supportedMethods" owner="61bbe2f309104774bae0f5f5c10b0ec8" creator="" creation-date="04/25/2023 20:02:49" visibility="private">
+            <structural-feature type="PaymentMethod" type-id="Class:ff9c587d89964219af238fa4d64cd913" />
+          </item>
+          <item id="956388141b6949428fc43cc1c31764f9" cid="PROP026" type="property" name="metod" owner="40ce8112106e4c1bad6f7ecca77a7b40" creator="" creation-date="04/24/2023 13:59:32" visibility="private">
+            <structural-feature type="Metod" type-id="Class:c28fe11fe7f54e23842134104537d0b6" />
+          </item>
+          <item id="dia1132e8d593a464cb39de2e854cff7b41941" cid="C010" type="class" name="Receipt" owner="di36f6e4b87b764f3ebd4ac6a9382384691941" creator="" creation-date="04/24/2023 13:55:28" visibility="undefined">
+            <attributes>
+              <attribute id="a9ee04055fdbd44a8a5a1877c1d2725b1914" cid="PROP037" name="metod" creation-date="04/24/2023 13:59:32" property-ref="806a9e29abb141b7b7d5d7b58cde8ec4" />
+              <attribute id="a699838e052b04984ba732a8b0b11ffad218" cid="PROP038" name="currency" creation-date="04/24/2023 13:59:43" property-ref="c8c539ae5381494fa77230ddbfa46726" />
+              <attribute id="ab48187adb1d14ce9a10e6ae243a63ff8659" cid="PROP039" name="ammount" creation-date="04/24/2023 14:00:06" property-ref="2b2f4d1f71d648feaeb4e2e62395c646" />
+            </attributes>
+          </item>
+          <item id="60c9079c23d3408aad77b751445dbb3c" cid="PROP035" type="property" name="balance" owner="dia91ff7e16b1b4bfa8b302c1a02db5ddb1941" creator="" creation-date="04/24/2023 13:58:23" visibility="private">
+            <structural-feature type="uInt" type-id="uInt" />
+          </item>
+          <item id="fc53a1f0a9ba4fe48d81c0f6e840b355" cid="PKG004" type="package" name="Payment Processor" creator="" creation-date="04/25/2023 20:00:59">
+            <owned-items />
+          </item>
+          <item id="c59e83e5e0dd4878a2895cef70e4b9d1" cid="PROP040" type="property" name="currency" owner="89c802d66e8f42079d7594137d8b4608" creator="" creation-date="04/25/2023 19:58:52" visibility="private">
+            <structural-feature type="ChoosedCurrency" type-id="Class:14b45cc1207b45a89a7ca25e60869f0a" />
+          </item>
+          <item id="53328ade70454518a648d2137e16dde6" cid="PROP042" type="property" name="value" owner="89c802d66e8f42079d7594137d8b4608" creator="" creation-date="04/25/2023 19:58:53" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="62dd699c2515417eb2004d1d2dbe2d2d" cid="PROP034" type="property" name="uuid" owner="dia91ff7e16b1b4bfa8b302c1a02db5ddb1941" creator="" creation-date="04/24/2023 13:58:11" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="dia91ff7e16b1b4bfa8b302c1a02db5ddb1941" cid="C009" type="class" name="Payment processor" owner="di36f6e4b87b764f3ebd4ac6a9382384691941" creator="" creation-date="04/24/2023 13:50:31" visibility="undefined">
+            <attributes>
+              <attribute id="acd4a895e36194f96b5d1459552d5034c211" cid="PROP032" name="availableMetods" creation-date="04/24/2023 13:54:19" property-ref="3f76ab87965d406e99a71cc31f6afc39" />
+              <attribute id="a6f6f70ffa9c640b8a3b655ce55d97e39667" cid="PROP033" name="adminCountrie" creation-date="04/24/2023 13:57:19" property-ref="2218257b85ec438faf064fcc95e10072" />
+              <attribute id="a97ec92dcf20d4e37b2b2fdb9c792a644778" cid="PROP034" name="uuid" creation-date="04/24/2023 13:58:11" property-ref="62dd699c2515417eb2004d1d2dbe2d2d" />
+              <attribute id="a34f2f53dc4b544ccb8b810f047ada18c194" cid="PROP035" name="balance" creation-date="04/24/2023 13:58:23" property-ref="60c9079c23d3408aad77b751445dbb3c" />
+              <attribute id="ae469d12a869448319d66e98ee7e12df2586" cid="PROP036" name="shopUuid" creation-date="04/24/2023 14:03:17" property-ref="5738b02dc5844fc181b06af570cdf71d" />
+            </attributes>
+            <operations>
+              <operation id="o2c4bd4ddc1a24103a11634f308ff5b95748" cid="OP001" name="pay" creation-date="04/24/2023 13:51:01" type="Receipt" type-id="Class:40ce8112106e4c1bad6f7ecca77a7b40" visibility="public" />
+            </operations>
+          </item>
+          <item id="9f998a3f74554fef810927742da18cef" cid="C007" type="class" name="Payment processor" owner="d0703b0b02e542c3b083ec2b626d533b" creator="" creation-date="04/24/2023 13:50:31" visibility="undefined">
+            <attributes>
+              <attribute id="acd4a895e36194f96b5d1459552d5034c211" cid="PROP021" name="availableMetods" creation-date="04/24/2023 13:54:19" property-ref="52a440f3cb7c435086a93cc82434e37e" />
+              <attribute id="a6f6f70ffa9c640b8a3b655ce55d97e39667" cid="PROP022" name="adminCountrie" creation-date="04/24/2023 13:57:19" property-ref="e4e91b22fb9d4199842430e08b8424e3" />
+              <attribute id="a97ec92dcf20d4e37b2b2fdb9c792a644778" cid="PROP023" name="uuid" creation-date="04/24/2023 13:58:11" property-ref="f21e93136aae471e84c694949971bb84" />
+              <attribute id="a34f2f53dc4b544ccb8b810f047ada18c194" cid="PROP024" name="balance" creation-date="04/24/2023 13:58:23" property-ref="edbd842c945f4f9b918d8580fb106d22" />
+              <attribute id="ae469d12a869448319d66e98ee7e12df2586" cid="PROP025" name="shopUuid" creation-date="04/24/2023 14:03:17" property-ref="bef218b1e5e74ca981d7478a9cd875ad" />
+            </attributes>
+            <operations>
+              <operation id="o2c4bd4ddc1a24103a11634f308ff5b95748" cid="OP001" name="pay" creation-date="04/24/2023 13:51:01" type="Receipt" type-id="Class:40ce8112106e4c1bad6f7ecca77a7b40" visibility="public" />
+            </operations>
+          </item>
+          <item id="2673e87a896346749d956390a2448706" cid="I005" type="uml-interface-classifier" name="auth" owner="7896f6d939244196b0b053e61d681677" creator="" creation-date="04/03/2023 12:53:21" visibility="undefined">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="2673e87a896346749d956390a2448706_interface_c" type="interface" ref="" />
+            </stereotype-instances>
+            <attributes>
+              <attribute id="a21efd34d9f064a5f84ee0091360711b778" cid="PROP029" name="uuid" creation-date="04/03/2023 13:14:30" property-ref="2304e0e379d948da85178705731ffdd9" />
+              <attribute id="aaa1f73768352490db144f704905078a4150" cid="PROP030" name="seed" creation-date="04/03/2023 13:14:54" property-ref="be9f9b38ebf14fb689532d6084cc85ce" />
+              <attribute id="a27ee10b0836d484a8fbde3644913d3e2527" cid="PROP031" name="passwdHash" creation-date="04/03/2023 13:15:15" property-ref="de99b635a022484c8d7ac3cd2a9fb522" />
+            </attributes>
+            <operations>
+              <operation id="o3ba5687220cd45f6878b15bb184748ff573" cid="OP006" name="zaloguj" creation-date="04/03/2023 12:53:41" type="" type-id="" visibility="public" />
+              <operation id="o6be251341e194772b60023fa97c0c15b100" cid="OP007" name="zajerestruj" creation-date="04/03/2023 12:53:48" type="" type-id="" visibility="public" />
+              <operation id="o3910411a90a14e97be6cebdf96cfcea4705" cid="OP008" name="wyloguj" creation-date="04/03/2023 12:53:54" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="di36f6e4b87b764f3ebd4ac6a9382384691941" cid="PKG003" type="package" name="Payment processor" owner="7896f6d939244196b0b053e61d681677" creator="" creation-date="04/24/2023 13:50:13" visibility="undefined" />
+          <item id="7b4ec8972b344466977d9f706bffafb9" cid="PROP027" type="property" name="currency" owner="40ce8112106e4c1bad6f7ecca77a7b40" creator="" creation-date="04/24/2023 13:59:43" visibility="private">
+            <structural-feature type="SupportedCountrie" type-id="Class:acffd6d2c64d46e397e0b6ba83f67733" />
+          </item>
+          <item id="806a9e29abb141b7b7d5d7b58cde8ec4" cid="PROP037" type="property" name="metod" owner="dia1132e8d593a464cb39de2e854cff7b41941" creator="" creation-date="04/24/2023 13:59:32" visibility="private">
+            <structural-feature type="Metod" type-id="Class:c28fe11fe7f54e23842134104537d0b6" />
+          </item>
+          <item id="52a440f3cb7c435086a93cc82434e37e" cid="PROP021" type="property" name="availableMetods" owner="9f998a3f74554fef810927742da18cef" creator="" creation-date="04/24/2023 13:54:19" visibility="private">
+            <structural-feature multiplicity="Metod" />
+          </item>
+          <item id="dia94824fe22a144a6a788cfdeab4798851941" cid="ELEM012" type="usage" owner="di36f6e4b87b764f3ebd4ac6a9382384691941" creator="" creation-date="04/24/2023 14:00:26" from="dia1132e8d593a464cb39de2e854cff7b41941" to="dia91ff7e16b1b4bfa8b302c1a02db5ddb1941" visibility="package">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="c289c5b46ae84f6fa13d72f380cfed71_use_c" type="use" ref="" />
+            </stereotype-instances>
+          </item>
+          <item id="bef218b1e5e74ca981d7478a9cd875ad" cid="PROP025" type="property" name="shopUuid" owner="9f998a3f74554fef810927742da18cef" creator="" creation-date="04/24/2023 14:03:17" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="40ce8112106e4c1bad6f7ecca77a7b40" cid="C008" type="class" name="Receipt" owner="d0703b0b02e542c3b083ec2b626d533b" creator="" creation-date="04/24/2023 13:55:28" visibility="undefined">
+            <attributes>
+              <attribute id="a9ee04055fdbd44a8a5a1877c1d2725b1914" cid="PROP026" name="metod" creation-date="04/24/2023 13:59:32" property-ref="956388141b6949428fc43cc1c31764f9" />
+              <attribute id="a699838e052b04984ba732a8b0b11ffad218" cid="PROP027" name="currency" creation-date="04/24/2023 13:59:43" property-ref="7b4ec8972b344466977d9f706bffafb9" />
+              <attribute id="ab48187adb1d14ce9a10e6ae243a63ff8659" cid="PROP028" name="ammount" creation-date="04/24/2023 14:00:06" property-ref="1a7adb51881145a798c1acada3294ee7" />
+            </attributes>
+          </item>
+          <item id="c8c539ae5381494fa77230ddbfa46726" cid="PROP038" type="property" name="currency" owner="dia1132e8d593a464cb39de2e854cff7b41941" creator="" creation-date="04/24/2023 13:59:43" visibility="private">
+            <structural-feature type="SupportedCountrie" type-id="Class:acffd6d2c64d46e397e0b6ba83f67733" />
+          </item>
+          <item id="dif67a40c7d92e4801a10b8d4b5fa29fa21941" cid="E008" type="enumeration" name="SupportedCountrie" owner="di36f6e4b87b764f3ebd4ac6a9382384691941" creator="" creation-date="04/24/2023 13:55:45" visibility="undefined">
+            <stereotypes>
+              <stereotype name="enumeration" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="acffd6d2c64d46e397e0b6ba83f67733_enumeration_c" type="enumeration" ref="" />
+            </stereotype-instances>
+            <enumeration-items>
+              <enumeration-item id="acda78a12a9314e38a381028b2753e15b594" cid="ENI007" name="PL" creation-date="04/24/2023 13:55:54" />
+              <enumeration-item id="a146f336f2b334f98b5c6bfc734c56663890" cid="ENI009" name="AF" creation-date="04/24/2023 13:56:12" />
+              <enumeration-item id="ae45d135eec314d15883551a0bb17ed32890" cid="ENI010" name="AL" creation-date="04/24/2023 13:56:15" />
+              <enumeration-item id="ac8343a0f4411461b8445980759dee86e146" cid="ENI011" name="DZ" creation-date="04/24/2023 13:56:20" />
+            </enumeration-items>
+          </item>
+          <item id="e4e91b22fb9d4199842430e08b8424e3" cid="PROP022" type="property" name="adminCountrie" owner="9f998a3f74554fef810927742da18cef" creator="" creation-date="04/24/2023 13:57:19" visibility="private">
+            <structural-feature multiplicity="SupportedCountrie" />
+          </item>
+          <item id="dif3531b97b3f84d7692863215d09e2ec11941" cid="ELEM011" type="usage" owner="di36f6e4b87b764f3ebd4ac6a9382384691941" creator="" creation-date="04/24/2023 13:56:41" from="dif67a40c7d92e4801a10b8d4b5fa29fa21941" to="dia91ff7e16b1b4bfa8b302c1a02db5ddb1941" visibility="package">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="63888c458ab04d43b4ceed14015d816a_use_c" type="use" ref="" />
+            </stereotype-instances>
+          </item>
+          <item id="7f1c7c1237c84adead97a7406e9d67dd" cid="PROP041" type="property" name="method" owner="89c802d66e8f42079d7594137d8b4608" creator="" creation-date="04/25/2023 19:58:53" visibility="private">
+            <structural-feature type="PaymentMethod" type-id="Class:ff9c587d89964219af238fa4d64cd913" />
+          </item>
+          <item id="be9f9b38ebf14fb689532d6084cc85ce" cid="PROP030" type="property" name="seed" owner="2673e87a896346749d956390a2448706" creator="" creation-date="04/03/2023 13:14:54" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="8639996dabb0453eb37c2715eac99023" cid="PROP049" type="property" name="shopID" owner="61bbe2f309104774bae0f5f5c10b0ec8" creator="" creation-date="04/25/2023 20:05:52" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="4e4847c5654d468a9e33517e56ede715" cid="ELEM013" type="usage" owner="fc53a1f0a9ba4fe48d81c0f6e840b355" creator="" creation-date="04/25/2023 20:01:34" from="89c802d66e8f42079d7594137d8b4608" to="61bbe2f309104774bae0f5f5c10b0ec8" visibility="package">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="4e4847c5654d468a9e33517e56ede715_use_c" type="use" ref="" />
+            </stereotype-instances>
+          </item>
+          <item id="3f76ab87965d406e99a71cc31f6afc39" cid="PROP032" type="property" name="availableMetods" owner="dia91ff7e16b1b4bfa8b302c1a02db5ddb1941" creator="" creation-date="04/24/2023 13:54:19" visibility="private">
+            <structural-feature multiplicity="Metod" />
+          </item>
+          <item id="dif23ceab6234d40cb9f86adbc56d125731941" cid="E007" type="enumeration" name="Metod" owner="di36f6e4b87b764f3ebd4ac6a9382384691941" creator="" creation-date="04/24/2023 13:51:37" visibility="undefined">
+            <stereotypes>
+              <stereotype name="enumeration" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="c28fe11fe7f54e23842134104537d0b6_enumeration_c" type="enumeration" ref="" />
+            </stereotype-instances>
+            <operations>
+              <operation id="o2c4bd4ddc1a24103a11634f308ff5b95748" cid="OP001" name="pay" creation-date="04/24/2023 13:51:01" type="" type-id="" visibility="public" />
+            </operations>
+            <enumeration-items>
+              <enumeration-item id="af57289676fda4cd4837f48826df63d2e595" cid="ENI001" name="Blik" creation-date="04/24/2023 13:51:49" />
+              <enumeration-item id="a4bcea179820644839bae1024507d0c8d188" cid="ENI002" name="BankTransfer" creation-date="04/24/2023 13:51:55" />
+              <enumeration-item id="ab96619561d8d41809815d16db08aee68562" cid="ENI003" name="Card" creation-date="04/24/2023 13:52:01" />
+              <enumeration-item id="a1e647c13336144b6af7d5c222cbf1c0b402" cid="ENI004" name="Shop" creation-date="04/24/2023 13:52:04" />
+              <enumeration-item id="a6430bfa969c24d6f91717b2a77aae353986" cid="ENI005" name="CashOnDelivery" creation-date="04/24/2023 13:52:08" />
+              <enumeration-item id="a8e17142c6c39453890a0106da668fa5961" cid="ENI006" name="Cryptocurrencies" creation-date="04/24/2023 13:52:22" />
+            </enumeration-items>
+          </item>
+          <item id="14b45cc1207b45a89a7ca25e60869f0a" cid="E002" type="enumeration" name="ChoosedCurrency" owner="fc53a1f0a9ba4fe48d81c0f6e840b355" creator="" creation-date="04/24/2023 14:04:15" visibility="undefined">
+            <stereotypes>
+              <stereotype name="enumeration" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="14b45cc1207b45a89a7ca25e60869f0a_enumeration_c" type="enumeration" ref="" />
+            </stereotype-instances>
+            <enumeration-items>
+              <enumeration-item id="ae184d90ae0834b3a8ab632a57de56618280" cid="ENI001" name="PLN" creation-date="04/24/2023 14:06:16" />
+              <enumeration-item id="a132acaf90b294f7fa85a90e258910785279" cid="ENI002" name="USD" creation-date="04/24/2023 14:06:17" />
+              <enumeration-item id="a646ac9b571224575b963b10c59ea420c447" cid="ENI003" name="EUR" creation-date="04/24/2023 14:06:17" />
+              <enumeration-item id="adabef4c9dcb64ac5842d70ee52806830655" cid="ENI004" name="NOK" creation-date="04/24/2023 14:06:17" />
+              <enumeration-item id="a6ab77f4c157f408697102b828d5cbcde22" cid="ENI005" name="CAD" creation-date="04/24/2023 14:06:18" />
+            </enumeration-items>
+          </item>
+          <item id="61bbe2f309104774bae0f5f5c10b0ec8" cid="C006" type="class" name="PaymentProcessor" owner="fc53a1f0a9ba4fe48d81c0f6e840b355" creator="" creation-date="04/24/2023 14:04:55" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="a68d23b580382414cbeedb354cbac95e2801" cid="PROP046" name="supportedMethods" creation-date="04/25/2023 20:02:49" property-ref="157216f018b24bdd8350b58d3e8ccb98" />
+              <attribute id="a71039ba850b6499383e998915ab708ca203" cid="PROP047" name="supportedCurrency" creation-date="04/25/2023 20:04:27" property-ref="d8fdea7fae0b4d0384deb5ea36096594" />
+              <attribute id="a203345d988be45ce80e187bf9999243b677" cid="PROP048" name="paymentID" creation-date="04/25/2023 20:04:28" property-ref="9aeff94d554d4e848027a8630f9f1c03" />
+              <attribute id="a2ae8ac1c52e544c88ee98051c67ad98c660" cid="PROP049" name="shopID" creation-date="04/25/2023 20:05:52" property-ref="8639996dabb0453eb37c2715eac99023" />
+            </attributes>
+            <operations>
+              <operation id="o173681a1d3e2418b96228ca5fc3585f3496" cid="OP012" name="acceptPayment" creation-date="04/25/2023 20:02:56" type="Payment" type-id="Class:89c802d66e8f42079d7594137d8b4608" visibility="public" />
+              <operation id="o0ac751b1f8884f1f96bc12f626646752911" cid="OP013" name="denyPayment" creation-date="04/25/2023 20:02:56" type="Payment" type-id="Class:89c802d66e8f42079d7594137d8b4608" visibility="public" />
+            </operations>
+          </item>
+          <item id="c289c5b46ae84f6fa13d72f380cfed71" cid="ELEM009" type="usage" owner="d0703b0b02e542c3b083ec2b626d533b" creator="" creation-date="04/24/2023 14:00:26" from="40ce8112106e4c1bad6f7ecca77a7b40" to="9f998a3f74554fef810927742da18cef" visibility="package">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="c289c5b46ae84f6fa13d72f380cfed71_use_c" type="use" ref="" />
+            </stereotype-instances>
+          </item>
+          <item id="did74c08a7f7ce4498a43a571d0241c9c41941" cid="ELEM010" type="usage" owner="di36f6e4b87b764f3ebd4ac6a9382384691941" creator="" creation-date="04/24/2023 13:53:46" from="dif23ceab6234d40cb9f86adbc56d125731941" to="dia91ff7e16b1b4bfa8b302c1a02db5ddb1941" visibility="package">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="869b44809f364cbba7842f9e6dd4d788_use_c" type="use" ref="" />
+            </stereotype-instances>
+          </item>
+          <item id="5af11f40ace34fdfa2281dc3f474c986" cid="ELEM005" type="usage" owner="fc53a1f0a9ba4fe48d81c0f6e840b355" creator="" creation-date="04/24/2023 14:08:26" from="ff9c587d89964219af238fa4d64cd913" to="61bbe2f309104774bae0f5f5c10b0ec8" visibility="package">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="5af11f40ace34fdfa2281dc3f474c986_use_c" type="use" ref="" />
+            </stereotype-instances>
+          </item>
+          <item id="2b2f4d1f71d648feaeb4e2e62395c646" cid="PROP039" type="property" name="ammount" owner="dia1132e8d593a464cb39de2e854cff7b41941" creator="" creation-date="04/24/2023 14:00:06" visibility="private">
+            <structural-feature type="uInt" type-id="uInt" />
+          </item>
+          <item id="d8fdea7fae0b4d0384deb5ea36096594" cid="PROP047" type="property" name="supportedCurrency" owner="61bbe2f309104774bae0f5f5c10b0ec8" creator="" creation-date="04/25/2023 20:04:27" visibility="private">
+            <structural-feature type="ChoosedCurrency" type-id="Class:14b45cc1207b45a89a7ca25e60869f0a" />
+          </item>
+          <item id="63888c458ab04d43b4ceed14015d816a" cid="ELEM008" type="usage" owner="d0703b0b02e542c3b083ec2b626d533b" creator="" creation-date="04/24/2023 13:56:41" from="acffd6d2c64d46e397e0b6ba83f67733" to="9f998a3f74554fef810927742da18cef" visibility="package">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="63888c458ab04d43b4ceed14015d816a_use_c" type="use" ref="" />
+            </stereotype-instances>
+          </item>
+          <item id="f21e93136aae471e84c694949971bb84" cid="PROP023" type="property" name="uuid" owner="9f998a3f74554fef810927742da18cef" creator="" creation-date="04/24/2023 13:58:11" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="acffd6d2c64d46e397e0b6ba83f67733" cid="E006" type="enumeration" name="SupportedCountrie" owner="d0703b0b02e542c3b083ec2b626d533b" creator="" creation-date="04/24/2023 13:55:45" visibility="undefined">
+            <stereotypes>
+              <stereotype name="enumeration" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="acffd6d2c64d46e397e0b6ba83f67733_enumeration_c" type="enumeration" ref="" />
+            </stereotype-instances>
+            <enumeration-items>
+              <enumeration-item id="acda78a12a9314e38a381028b2753e15b594" cid="ENI007" name="PL" creation-date="04/24/2023 13:55:54" />
+              <enumeration-item id="a146f336f2b334f98b5c6bfc734c56663890" cid="ENI009" name="AF" creation-date="04/24/2023 13:56:12" />
+              <enumeration-item id="ae45d135eec314d15883551a0bb17ed32890" cid="ENI010" name="AL" creation-date="04/24/2023 13:56:15" />
+              <enumeration-item id="ac8343a0f4411461b8445980759dee86e146" cid="ENI011" name="DZ" creation-date="04/24/2023 13:56:20" />
+            </enumeration-items>
+          </item>
+          <item id="9aeff94d554d4e848027a8630f9f1c03" cid="PROP048" type="property" name="paymentID" owner="61bbe2f309104774bae0f5f5c10b0ec8" creator="" creation-date="04/25/2023 20:04:28" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="de99b635a022484c8d7ac3cd2a9fb522" cid="PROP031" type="property" name="passwdHash" owner="2673e87a896346749d956390a2448706" creator="" creation-date="04/03/2023 13:15:15" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="c28fe11fe7f54e23842134104537d0b6" cid="E005" type="enumeration" name="Metod" owner="d0703b0b02e542c3b083ec2b626d533b" creator="" creation-date="04/24/2023 13:51:37" visibility="undefined">
+            <stereotypes>
+              <stereotype name="enumeration" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="c28fe11fe7f54e23842134104537d0b6_enumeration_c" type="enumeration" ref="" />
+            </stereotype-instances>
+            <operations>
+              <operation id="o2c4bd4ddc1a24103a11634f308ff5b95748" cid="OP001" name="pay" creation-date="04/24/2023 13:51:01" type="" type-id="" visibility="public" />
+            </operations>
+            <enumeration-items>
+              <enumeration-item id="af57289676fda4cd4837f48826df63d2e595" cid="ENI001" name="Blik" creation-date="04/24/2023 13:51:49" />
+              <enumeration-item id="a4bcea179820644839bae1024507d0c8d188" cid="ENI002" name="BankTransfer" creation-date="04/24/2023 13:51:55" />
+              <enumeration-item id="ab96619561d8d41809815d16db08aee68562" cid="ENI003" name="Card" creation-date="04/24/2023 13:52:01" />
+              <enumeration-item id="a1e647c13336144b6af7d5c222cbf1c0b402" cid="ENI004" name="Shop" creation-date="04/24/2023 13:52:04" />
+              <enumeration-item id="a6430bfa969c24d6f91717b2a77aae353986" cid="ENI005" name="CashOnDelivery" creation-date="04/24/2023 13:52:08" />
+              <enumeration-item id="a8e17142c6c39453890a0106da668fa5961" cid="ENI006" name="Cryptocurrencies" creation-date="04/24/2023 13:52:22" />
+            </enumeration-items>
+          </item>
+          <item id="f7a0b1d24d60473ab2e8067607b0d563" cid="ELEM006" type="usage" owner="fc53a1f0a9ba4fe48d81c0f6e840b355" creator="" creation-date="04/24/2023 14:08:29" from="14b45cc1207b45a89a7ca25e60869f0a" to="61bbe2f309104774bae0f5f5c10b0ec8" visibility="package">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="f7a0b1d24d60473ab2e8067607b0d563_use_c" type="use" ref="" />
+            </stereotype-instances>
+          </item>
+          <item id="2304e0e379d948da85178705731ffdd9" cid="PROP029" type="property" name="uuid" owner="2673e87a896346749d956390a2448706" creator="" creation-date="04/03/2023 13:14:30" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="a523cb388e304581b27731232dd6e8a1" cid="PROP045" type="property" name="paymentID" owner="89c802d66e8f42079d7594137d8b4608" creator="" creation-date="04/25/2023 20:02:22" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="1a7adb51881145a798c1acada3294ee7" cid="PROP028" type="property" name="ammount" owner="40ce8112106e4c1bad6f7ecca77a7b40" creator="" creation-date="04/24/2023 14:00:06" visibility="private">
+            <structural-feature type="uInt" type-id="uInt" />
+          </item>
+        </abstract-items>
+        <layer id="86cd9580dacd484dab46ebd36259a366" name="Default" visible="true" enabled="true" locked="false">
+          <item id="fc53a1f0a9ba4fe48d81c0f6e840b355" iid="0c9a89cea5f14487b92b2b7686809661" creation-date="04/25/2023 20:00:59" order-index="18" type="entity">
+            <layout ax="529.5091" ay="1240" awidth="998.9999" aheight="809" x="529.5091" y="1240" width="999" height="809" expanded="529.5091,1240,998.9999,809" collapsed="0,0,0,0" rotation-center="-349.5,-304.5" />
+            <package name-in-body="false" />
+          </item>
+          <item id="5af11f40ace34fdfa2281dc3f474c986" iid="cd340384fb504ec4897e72c93131d38f" container="fc53a1f0a9ba4fe48d81c0f6e840b355" container-iid="0c9a89cea5f14487b92b2b7686809661" creation-date="04/24/2023 14:08:26" order-index="16" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="762" y1="1390" x2="1002" y2="1467" start-border-pos="0.374339781520579" end-border-pos="0.908400809716599" start-local-pos="85.22266" end-local-pos="90.5" name-position="0,20">
+              <points>
+                <point x="762" y="1390" />
+                <point x="1002" y="1467" />
+              </points>
+            </layout>
+            <relation from="ff9c587d89964219af238fa4d64cd913" from-iid="aa7bb2b19cae4724a4291564e7407594" to="61bbe2f309104774bae0f5f5c10b0ec8" to-iid="5f7ec832ecab46b7834ddf4d2716a158" />
+          </item>
+          <item id="f7a0b1d24d60473ab2e8067607b0d563" iid="9ef9d54ee85f4660a022986526520578" container="fc53a1f0a9ba4fe48d81c0f6e840b355" container-iid="0c9a89cea5f14487b92b2b7686809661" creation-date="04/24/2023 14:08:29" order-index="17" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="762" y1="1608" x2="1002" y2="1500" start-border-pos="0.375" end-border-pos="0.875" start-local-pos="80" end-local-pos="123.5" name-position="0,20">
+              <points>
+                <point x="762" y="1608" />
+                <point x="1002" y="1500" />
+              </points>
+            </layout>
+            <relation from="14b45cc1207b45a89a7ca25e60869f0a" from-iid="39adb62ba37f4eb29e427e7bf1b40fe6" to="61bbe2f309104774bae0f5f5c10b0ec8" to-iid="5f7ec832ecab46b7834ddf4d2716a158" />
+          </item>
+          <item id="61bbe2f309104774bae0f5f5c10b0ec8" iid="5f7ec832ecab46b7834ddf4d2716a158" container="fc53a1f0a9ba4fe48d81c0f6e840b355" container-iid="0c9a89cea5f14487b92b2b7686809661" show-fields="true" creation-date="04/24/2023 14:04:55" order-index="15" type="entity">
+            <layout ax="1002.414" ay="1376.32" awidth="407.9999" aheight="247" x="1818.8" y="1335.809" width="408" height="247" />
+            <classifier />
+            <class />
+          </item>
+          <item id="89c802d66e8f42079d7594137d8b4608" iid="99d27f81ece14105ae044061f2688499" container="fc53a1f0a9ba4fe48d81c0f6e840b355" container-iid="0c9a89cea5f14487b92b2b7686809661" show-fields="true" creation-date="04/24/2023 14:04:25" order-index="14" type="entity">
+            <layout ax="739.2834" ay="1756.641" awidth="258.9999" aheight="247" x="739.2834" y="1756.641" width="258.9999" height="247" rotation-center="74.50012,0" />
+            <classifier />
+            <class />
+          </item>
+          <item id="ff9c587d89964219af238fa4d64cd913" iid="aa7bb2b19cae4724a4291564e7407594" container="fc53a1f0a9ba4fe48d81c0f6e840b355" container-iid="0c9a89cea5f14487b92b2b7686809661" creation-date="04/24/2023 14:04:18" order-index="13" type="entity">
+            <layout ax="597.8344" ay="1301.137" awidth="164" aheight="178" x="1415.737" y="1261.198" width="164" height="175.3503" rotation-center="74.38477,83.32483" />
+          </item>
+          <item id="14b45cc1207b45a89a7ca25e60869f0a" iid="39adb62ba37f4eb29e427e7bf1b40fe6" container="fc53a1f0a9ba4fe48d81c0f6e840b355" container-iid="0c9a89cea5f14487b92b2b7686809661" creation-date="04/24/2023 14:04:15" order-index="12" type="entity">
+            <layout ax="598.0466" ay="1518.78" awidth="164" aheight="178" x="1415.737" y="1479.421" width="164" height="178" rotation-center="107.9591,54.5" />
+          </item>
+          <item id="4e4847c5654d468a9e33517e56ede715" iid="c1377edb14254df1848855bb0bc303cf" container="fc53a1f0a9ba4fe48d81c0f6e840b355" container-iid="0c9a89cea5f14487b92b2b7686809661" creation-date="04/25/2023 20:01:34" order-index="19" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="869" y1="1757" x2="1122" y2="1623" start-border-pos="0.125343205006298" end-border-pos="0.676724398756827" start-local-pos="129.8555" end-local-pos="119.5858" name-position="0,20">
+              <points>
+                <point x="869" y="1757" />
+                <point x="1122" y="1623" />
+              </points>
+            </layout>
+            <relation from="89c802d66e8f42079d7594137d8b4608" from-iid="99d27f81ece14105ae044061f2688499" to="61bbe2f309104774bae0f5f5c10b0ec8" to-iid="5f7ec832ecab46b7834ddf4d2716a158" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
